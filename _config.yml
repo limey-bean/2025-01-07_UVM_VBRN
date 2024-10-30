@@ -53,14 +53,14 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Data Processing and Visualization for Metagenomics"
+title: "Workshop Title"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-# incubator_lesson_site: "https://carpentries-lab.github.io/metagenomics-analysis/index.html"
+# incubator_lesson_site: "put the URL of the lesson being taught here"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
 # incubator_pre_survey: "put the URL of your pre-workshop survey here"
