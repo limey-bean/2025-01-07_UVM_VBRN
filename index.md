@@ -57,15 +57,11 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% comment %}
 
-EVENTBRITE
+<h2 id="general">EVENTBRITE Registration</h2>
 
-{% endcomment %}
-{% if page.eventbrite %}
 <strong>Please click this [link](https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt) to register for the workshop. </strong>
 
-{% endif %}
 
 
 <h2 id="general">General Information</h2>
