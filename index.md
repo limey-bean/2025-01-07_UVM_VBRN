@@ -60,7 +60,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 
 <h2 id="general">EVENTBRITE Registration</h2>
 
-<strong>Please click this [link]([https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt](https://www.eventbrite.com/e/data-processing-and-visualization-for-metagenomics-tickets-1076086245929?aff=oddtdtcreator) to register for the workshop. </strong>
+<strong>Please click this [link]([https://www.eventbrite.com/e/data-processing-and-visualization-for-metagenomics-tickets-1076086245929?aff=oddtdtcreator]) to register for the workshop. </strong>
 
 
 
