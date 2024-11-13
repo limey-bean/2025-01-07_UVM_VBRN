@@ -71,7 +71,7 @@ displayed if the 'eventbrite' field in the header is not set.
   registration box below, please check your adblocker settings.</strong>
 <strong>Please click this [link](https://www.eventbrite.com/e/data-processing-and-visualization-for-metagenomics-tickets-1076086245929?aff=oddtdtcreator#search) if the interface below is not working: </strong>
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt"
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
   height="280px"
