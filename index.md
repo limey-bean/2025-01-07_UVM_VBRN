@@ -58,6 +58,27 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 {% comment %}
+<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/uvm-vbrn-data-processing-and-visualization-for-metagenomics-tickets-1070493337389" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-1070493337389" type="button">Buy Tickets</button>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '1070493337389',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-1070493337389',
+        onOrderComplete: exampleCallback
+    });
+</script>
+
 EVENTBRITE
 
 This block includes the Eventbrite registration widget if
