@@ -75,7 +75,7 @@ displayed if the 'eventbrite' field in the header is not set.
   frameborder="0"
   width="100%"
   height="380px"
-  scrolling="auto">
+  scrolling="auto">&nbsp;
 </iframe>
 {% endif %}
 
