@@ -81,7 +81,7 @@ nsh - tshooting here whether raw will display any differently
 </iframe>
 {% endcomment %}
 {% raw %}
-<iframe src="https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt" frameborder="0" width="100%" height="380px" scrolling="auto>$nbsp;</iframe>
+<iframe src="https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt" frameborder="0" width="100%" height="380px" scrolling="auto" >$nbsp;</iframe>
 {% endraw %}
 {% endif %}
 
