@@ -58,26 +58,6 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 {% comment %}
-<!-- Noscript content for added SEO -->
-<noscript><a href="https://www.eventbrite.com/e/uvm-vbrn-data-processing-and-visualization-for-metagenomics-tickets-1070493337389" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
-<!-- You can customize this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-1070493337389" type="button">Buy Tickets</button>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '1070493337389',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-1070493337389',
-        onOrderComplete: exampleCallback
-    });
-</script>
 
 EVENTBRITE
 
@@ -89,6 +69,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
+<strong>Please click this [link](https://www.eventbrite.com/e/data-processing-and-visualization-for-metagenomics-tickets-1076086245929?aff=oddtdtcreator#search) if the interface below is not working: </strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt"
   frameborder="0"
