@@ -61,23 +61,9 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 
 EVENTBRITE
 
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-<strong>Please click this [link](https://www.eventbrite.com/e/data-processing-and-visualization-for-metagenomics-tickets-1076086245929?aff=oddtdtcreator#search) if the interface below is not working: </strong>
-
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="380px"
-  scrolling="auto" >
-</iframe>
+<strong>Please click this [link](https://www.eventbrite.com/tickets-external?eid=1076086245929&ref=etckt) to register for the workshop. </strong>
 
 {% endif %}
 
